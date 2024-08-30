@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button {
+  display: block;
+  margin: 1rem 0;
+  padding: 0.35rem 0.5rem;
+  background-color: #4299e1;
+  color: #1a202c;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input.input-errors,
+select.input-errors {
+  border-color: #fc8181;
+}
+
+.error {
+  color: red;
+}
+
+button:disabled{
+    opacity: 0.35;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+
+.navbar-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #4299e1;
+}

@@ -1,0 +1,12 @@
+.NavbarContainer{
+    width: 100%;
+    display: flex;
+    background-color: lightcoral;
+    padding: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavLink {
+    margin-left: 12px;
+}
